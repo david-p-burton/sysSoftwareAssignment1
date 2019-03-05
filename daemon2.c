@@ -38,6 +38,8 @@ int main()
 		exit(EXIT_FAILURE);
 	}
 
+
+
 	//close std file descriptors
 	close(STDIN_FILENO);
 	close(STDOUT_FILENO);
@@ -49,5 +51,6 @@ int main()
 	{
 		//do some task
 		sleep(30);
+		
 	}
 }
