@@ -13,7 +13,7 @@ int main()
 	
 	if(pid > 0) // anything other than 0 is the parent process
 	{
-		printf("This is a PARENT process!\n");
+		printf("This is a PARENT process! PID is; %d\n", pid);
 		exit(EXIT_SUCCESS); //kills the parent
 	}
 	if (pid < 0)
@@ -38,8 +38,6 @@ int main()
 		exit(EXIT_FAILURE);
 	}
 
-
-
 	//close std file descriptors
 	close(STDIN_FILENO);
 	close(STDOUT_FILENO);
@@ -47,6 +45,7 @@ int main()
 
 	//daemon specific initialization here
 
+	printf("%d\n", pid);
 	while(1)
 	{
 		//do some task
