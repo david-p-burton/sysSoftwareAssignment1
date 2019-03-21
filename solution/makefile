@@ -1,2 +1,2 @@
-makemake: daemon2.c date.c
-	gcc -o maintest daemon2.c date.c -I.
+makemake: main.c date.c transfer.c logging.c permissions.c
+	gcc -o maintest main.c date.c transfer.c logging.c permissions.c -I.
