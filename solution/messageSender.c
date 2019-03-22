@@ -3,9 +3,9 @@
 #include <string.h>
 #include <mqueue.h>
 
-#include "mesaageSender.h"
+#include "messageSender.h"
 
-messageSender()
+void messageSender(char message[])
 {
-
+	
 }

@@ -6,14 +6,16 @@
 #include "transfer.h"
 #include "logging.h"
 
+
+//this updates the website - to be called at appropriate time (night time)
+
 void websiteUpdater()
 {
 
 	int x = 0;
-	// char *path = "rsync -r /home/david/assignment/website/intrasite/* /home/david/assignment/website/live";
-	char *path = "cp /home/david/assignment/website/intrasite/* /home/david/assignment/website/live";
+	char *command = "cp /home/david/assignment/website/intrasite/* /home/david/assignment/website/live";
 
-	if(system(path) < 0)
+	if(system(command) < 0)
 	{
 		x++;
 	}

@@ -1,2 +1,2 @@
-makemake: main.c date.c transfer.c logging.c permissions.c
-	gcc -o maintest main.c date.c transfer.c logging.c permissions.c -I.
+makemake: main.c date.c logging.c messageSender.c permissions.c siteBackup.c transfer.c
+	gcc -o maintest main.c date.c logging.c messageSender.c permissions.c siteBackup.c transfer.c -lrt -I.

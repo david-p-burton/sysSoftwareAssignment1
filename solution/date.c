@@ -1,8 +1,9 @@
-#include "date.h"
 #include <stdio.h>
 #include <time.h>
 
-char* dateGet(char * buffer)
+#include "date.h"
+
+char* dateGet(char *buffer)
 {
 
 	time_t rawtime;
@@ -12,10 +13,7 @@ char* dateGet(char * buffer)
 
 	info = localtime(&rawtime);
 
-	strftime(buffer, 100, "%c", info);
-
+	strftime(buffer, 100, "%Y-%m-%d_%I:%M:%S%p", info);
 	return buffer;
-
-
 
 }
