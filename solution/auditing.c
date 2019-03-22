@@ -12,16 +12,16 @@ void auditChecker()
 {
 	char *temp[200];
 	char *date = dateGet(temp);
-	char *fileType = ".txt";
 
-	char *command = "ausearch -f /home/david/assignment/website/ > home/david/assignment/logs/logFileAssign";
+	char *command = "ausearch -f /home/david/assignment/website/ > home/david/assignment/logs/logFileAssign.txt";
 
 	if(system(command) < 0)
 	{
 		messageSender("Operation audit Cancelled");
+		
 	}
 	else
 	{
-		messageSender("Audit Checked -  Auditing.c");
+		messageSender("Awaiting message...");
 	}
 }

@@ -16,6 +16,7 @@
 #include "siteBackup.h"
 #include "permissions.h"
 #include "auditing.h"
+#include "messageSender.h"
 
 static void summonADaemon()
 {
@@ -65,8 +66,35 @@ static void summonADaemon()
 int main(int argc, char *argv[])
 {
 
+	//time variables to be used for scheduling backups etc.
+
+	//took me a while to figure out that daylights savings time plays a big part in this
+	//the local time is return a time that is 1 hour ahead!!!
+	//I should put this up on stackoverflow somewhere in case I'm not the only one who missed this
+	int timeCheck = 0;
+	struct tm time1 = {0};
+	struct tm *time2;
+	time_t realTime;
+	time(&realTime);
+
+	//Time for out automatic backups
+	time1.tm_hour = 00;
+	time1.tm_min = 7;
+	time1.tm_sec = 0;
+	time1.tm_mday = 23;
+	time1.tm_mon = 2;
+	time1.tm_year = 119;
+
+	time2 = localtime(&realTime);
+
+	time_t TimeUse1 = mktime(&time1);
+	time_t TimeUse2 = mktime(time2);
+
+
+	//set audit on intrasite to see changes
 	char *command = "auditctl -w /home/david/assignment/website/intrasite -p rwxa";
 
+	//execute above command - sys log if there is an error
 	if(system(command) < 0)
 	{
 		openlog("TestLog", LOG_PID | LOG_CONS, LOG_USER);
@@ -75,26 +103,39 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
+		//audit successfully created
 		system("echo woot!");
 	}
 
 	//outlined above - essentially just creates out daemon
 	summonADaemon();
 
+	//daemon loop
 	while(1)
 	{
-		sleep(30);
-		int fileDescriptor;
-		char *queueFile = "home/david/assignment/logs/logFileAssign";
-		char buffer[1024] = "";
-		fileDescriptor = open(queueFile, O_RDONLY);
+		sleep(1);
+		//time checking for daily backup
+		time(&realTime);
+		time2 = localtime(&realTime);
 
-		read(fileDescriptor, buffer, 1024);
+		time_t TimeUse2 = mktime(time2);
+
+		timeCheck = TimeUse2 - TimeUse1;
+
+
+		int emergencyOperation;
+		char *queueFile = "home/david/assignment/logs/EMERGENCYFILECALL";
+		char buffer[1024] = "";
+		emergencyOperation = open(queueFile, O_RDONLY);
+
+		read(emergencyOperation, buffer, 1024);
 		
 
 		//standard daily backup and go live
-		if(1)
+		if(timeCheck == 0)
 		{
+
+			messageSender("Performing Daily Processes");
 			lockFiles();
 			createBackup();
 			websiteUpdater();
@@ -109,7 +150,7 @@ int main(int argc, char *argv[])
 			unlockFiles();
 		}
 
-		close(fileDescriptor);
+		close(emergencyOperation);
 
 		//update EMERGENCY call
 		if(strcmp(buffer, "2") == 0)

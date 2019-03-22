@@ -2,6 +2,7 @@
 #include <sys/types.h>
 #include <unistd.h>
 #include <stdlib.h>
+#include <syslog.h>
 
 #include "transfer.h"
 #include "logging.h"
@@ -19,6 +20,10 @@ void websiteUpdater()
 	if(system(command) < 0)
 	{
 		messageSender("Could not update website!");
+
+		openlog("Test", LOG_PID, LOG_USER);
+		syslog(LOG_INFO, "copy failed");
+		closelog();
 	}
 	else
 	{
