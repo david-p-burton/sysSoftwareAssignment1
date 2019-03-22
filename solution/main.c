@@ -6,11 +6,16 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <syslog.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <time.h>
 
 //custom headers files
-#include "time.h"
+#include "date.h"
 #include "transfer.h"
 #include "siteBackup.h"
+#include "permissions.h"
+#include "auditing.h"
 
 static void summonADaemon()
 {
@@ -78,7 +83,7 @@ int main(int argc, char *argv[])
 
 	while(1)
 	{
-		sleep(1);
+		sleep(30);
 		int fileDescriptor;
 		char *queueFile = "home/david/assignment/logs/logFileAssign";
 		char buffer[1024] = "";
@@ -87,20 +92,34 @@ int main(int argc, char *argv[])
 		read(fileDescriptor, buffer, 1024);
 		
 
-		//backup call
+		//standard daily backup and go live
+		if(1)
+		{
+			lockFiles();
+			createBackup();
+			websiteUpdater();
+			unlockFiles();
+		}
+
+		//backup EMERGENCY call
 		if(strcmp(buffer, "1") == 0)
 		{
-			lockFiles("1111");
+			lockFiles();
 			createBackup();
-			unlockFiles("0777");
+			unlockFiles();
 		}
 
 		close(fileDescriptor);
 
-		//
+		//update EMERGENCY call
+		if(strcmp(buffer, "2") == 0)
+		{
+			lockFiles();
+			websiteUpdater();
+			unlockFiles();
+		}
 
-
-		//
+		auditChecker();
 	}
 
 	return 0;

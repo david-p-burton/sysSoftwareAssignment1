@@ -17,7 +17,7 @@ int main()
 	queueAttributes.mq_msgsize = 1024;
 	queueAttributes.mq_curmsgs = 0;
 
-	messageQueue = mq_open("/DavidsQue", O_CREAT, | O_RDONLY, 0644, &queueAttributes);
+	messageQueue = mq_open("/DavidsQue", O_CREAT | O_RDONLY, 0644, &queueAttributes);
 
 	do
 	{

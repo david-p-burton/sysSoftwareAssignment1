@@ -2,7 +2,7 @@
 #define auditing_h
 
 
-void setAuditWatch();
+void auditChecker();
 
 
 #endif

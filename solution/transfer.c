@@ -5,6 +5,7 @@
 
 #include "transfer.h"
 #include "logging.h"
+#include "messageSender.h"
 
 
 //this updates the website - to be called at appropriate time (night time)
@@ -17,10 +18,10 @@ void websiteUpdater()
 
 	if(system(command) < 0)
 	{
-		x++;
+		messageSender("Could not update website!");
 	}
 	else
 	{
-		x--;
+		messageSender("Website updated!");
 	}
 }

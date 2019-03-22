@@ -6,14 +6,14 @@
 char* dateGet(char *buffer)
 {
 
-	time_t rawtime;
-	struct tm *info;
+	time_t tempTime;
+	struct tm *returnTime;
 
-	time(&rawtime);
+	time(&tempTime);
 
-	info = localtime(&rawtime);
+	returnTime = localtime(&tempTime);
 
-	strftime(buffer, 100, "%Y-%m-%d_%I:%M:%S%p", info);
+	strftime(buffer, 100, "%Y-%m-%d_%I:%M:%S%p", returnTime);
 	return buffer;
 
 }

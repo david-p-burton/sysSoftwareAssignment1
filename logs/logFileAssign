@@ -1,0 +1,379 @@
+----
+time->Fri Mar 22 18:47:18 2019
+type=PROCTITLE msg=audit(1553280438.382:100): proctitle=6C73002D2D636F6C6F723D6175746F
+type=PATH msg=audit(1553280438.382:100): item=0 name="." inode=132430 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553280438.382:100): cwd="/home/david/assignment/website/intrasite"
+type=SYSCALL msg=audit(1553280438.382:100): arch=c000003e syscall=2 success=yes exit=3 a0=5635df91e680 a1=90800 a2=1 a3=504 items=1 ppid=2267 pid=2832 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts1 ses=4 comm="ls" exe="/bin/ls" key=(null)
+----
+time->Fri Mar 22 18:47:22 2019
+type=PROCTITLE msg=audit(1553280442.550:102): proctitle="bash"
+type=PATH msg=audit(1553280442.550:102): item=0 name="." inode=132430 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553280442.550:102): cwd="/home/david/assignment/website/intrasite"
+type=SYSCALL msg=audit(1553280442.550:102): arch=c000003e syscall=2 success=yes exit=3 a0=4ccca3 a1=90800 a2=15d2800 a3=4 items=1 ppid=1105 pid=2267 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts1 ses=4 comm="bash" exe="/bin/bash" key=(null)
+----
+time->Fri Mar 22 18:47:22 2019
+type=PROCTITLE msg=audit(1553280442.550:101): proctitle="bash"
+type=PATH msg=audit(1553280442.550:101): item=0 name="." inode=132430 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553280442.550:101): cwd="/home/david/assignment/website/intrasite"
+type=SYSCALL msg=audit(1553280442.550:101): arch=c000003e syscall=2 success=yes exit=3 a0=4ccca3 a1=90800 a2=15d2800 a3=4 items=1 ppid=1105 pid=2267 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts1 ses=4 comm="bash" exe="/bin/bash" key=(null)
+----
+time->Fri Mar 22 18:47:22 2019
+type=PROCTITLE msg=audit(1553280442.554:103): proctitle="bash"
+type=PATH msg=audit(1553280442.554:103): item=0 name="." inode=132430 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553280442.554:103): cwd="/home/david/assignment/website/intrasite"
+type=SYSCALL msg=audit(1553280442.554:103): arch=c000003e syscall=2 success=yes exit=3 a0=1590398 a1=90800 a2=1461d20 a3=0 items=1 ppid=2267 pid=2833 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts1 ses=4 comm="bash" exe="/bin/bash" key=(null)
+----
+time->Fri Mar 22 18:47:22 2019
+type=PROCTITLE msg=audit(1553280442.558:104): proctitle="bash"
+type=PATH msg=audit(1553280442.558:104): item=0 name="." inode=132430 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553280442.558:104): cwd="/home/david/assignment/website/intrasite"
+type=SYSCALL msg=audit(1553280442.558:104): arch=c000003e syscall=2 success=yes exit=3 a0=15909b8 a1=90800 a2=15ca2e0 a3=0 items=1 ppid=2267 pid=2834 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts1 ses=4 comm="bash" exe="/bin/bash" key=(null)
+----
+time->Fri Mar 22 18:47:22 2019
+type=PROCTITLE msg=audit(1553280442.930:105): proctitle=2F6F70742F7375626C696D655F746578742F7375626C696D655F74657874006175646974696E672E63
+type=PATH msg=audit(1553280442.930:105): item=0 name="/home/david/assignment/website/intrasite/index.html" inode=134330 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553280442.930:105): cwd="/"
+type=SYSCALL msg=audit(1553280442.930:105): arch=c000003e syscall=2 success=yes exit=80 a0=6615988 a1=0 a2=1b6 a3=0 items=1 ppid=610 pid=1053 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4 comm="file_read_threa" exe="/opt/sublime_text/sublime_text" key=(null)
+----
+time->Fri Mar 22 19:16:04 2019
+type=PROCTITLE msg=audit(1553282164.081:124): proctitle=6370002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F696E6465782E68746D6C002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F7374796C652E637373002F686F6D652F64617669642F61737369676E6D656E74
+type=PATH msg=audit(1553282164.081:124): item=0 name="/home/david/assignment/website/intrasite/index.html" inode=134330 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553282164.081:124): cwd="/"
+type=SYSCALL msg=audit(1553282164.081:124): arch=c000003e syscall=2 success=yes exit=1 a0=7fff65e3a85c a1=0 a2=0 a3=69f items=1 ppid=3257 pid=3258 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Fri Mar 22 19:16:04 2019
+type=PROCTITLE msg=audit(1553282164.077:123): proctitle=7368002D63006370202F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F2A202F686F6D652F64617669642F61737369676E6D656E742F776562736974652F6C697665
+type=PATH msg=audit(1553282164.077:123): item=0 name="/home/david/assignment/website/intrasite" inode=132430 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553282164.077:123): cwd="/"
+type=SYSCALL msg=audit(1553282164.077:123): arch=c000003e syscall=2 success=yes exit=1 a0=558c73411420 a1=90800 a2=558c73411421 a3=1 items=1 ppid=3246 pid=3257 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="sh" exe="/bin/dash" key=(null)
+----
+time->Fri Mar 22 19:16:04 2019
+type=PROCTITLE msg=audit(1553282164.081:125): proctitle=6370002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F696E6465782E68746D6C002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F7374796C652E637373002F686F6D652F64617669642F61737369676E6D656E74
+type=PATH msg=audit(1553282164.081:125): item=0 name="/home/david/assignment/website/intrasite/style.css" inode=134739 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553282164.081:125): cwd="/"
+type=SYSCALL msg=audit(1553282164.081:125): arch=c000003e syscall=2 success=yes exit=1 a0=7fff65e3a890 a1=0 a2=0 a3=0 items=1 ppid=3257 pid=3258 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Fri Mar 22 19:16:09 2019
+type=PROCTITLE msg=audit(1553282169.277:126): proctitle=2F7573722F62696E2F6E617574696C7573002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1553282169.277:126): item=0 name="/home/david/assignment/website/intrasite" inode=132430 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553282169.277:126): cwd="/home/david"
+type=SYSCALL msg=audit(1553282169.277:126): arch=c000003e syscall=2 success=yes exit=18 a0=7fb1e0007a00 a1=90800 a2=29 a3=aaaaaaaaaaaaaaab items=1 ppid=610 pid=2195 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Fri Mar 22 19:16:34 2019
+type=PROCTITLE msg=audit(1553282194.092:127): proctitle=7368002D63006370202F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F2A202F686F6D652F64617669642F61737369676E6D656E742F776562736974652F6C697665
+type=PATH msg=audit(1553282194.092:127): item=0 name="/home/david/assignment/website/intrasite" inode=132430 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553282194.092:127): cwd="/"
+type=SYSCALL msg=audit(1553282194.092:127): arch=c000003e syscall=2 success=yes exit=1 a0=55dd183ea420 a1=90800 a2=55dd183ea421 a3=1 items=1 ppid=3246 pid=3276 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="sh" exe="/bin/dash" key=(null)
+----
+time->Fri Mar 22 19:16:34 2019
+type=PROCTITLE msg=audit(1553282194.092:128): proctitle=6370002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F696E6465782E68746D6C002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F7374796C652E637373002F686F6D652F64617669642F61737369676E6D656E74
+type=PATH msg=audit(1553282194.092:128): item=0 name="/home/david/assignment/website/intrasite/index.html" inode=134330 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553282194.092:128): cwd="/"
+type=SYSCALL msg=audit(1553282194.092:128): arch=c000003e syscall=2 success=yes exit=1 a0=7ffe755d485c a1=0 a2=0 a3=69f items=1 ppid=3276 pid=3277 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Fri Mar 22 19:16:34 2019
+type=PROCTITLE msg=audit(1553282194.092:129): proctitle=6370002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F696E6465782E68746D6C002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F7374796C652E637373002F686F6D652F64617669642F61737369676E6D656E74
+type=PATH msg=audit(1553282194.092:129): item=0 name="/home/david/assignment/website/intrasite/style.css" inode=134739 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553282194.092:129): cwd="/"
+type=SYSCALL msg=audit(1553282194.092:129): arch=c000003e syscall=2 success=yes exit=1 a0=7ffe755d4890 a1=0 a2=0 a3=0 items=1 ppid=3276 pid=3277 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Fri Mar 22 19:17:04 2019
+type=PROCTITLE msg=audit(1553282224.103:136): proctitle=7368002D63006370202F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F2A202F686F6D652F64617669642F61737369676E6D656E742F776562736974652F6C697665
+type=PATH msg=audit(1553282224.103:136): item=0 name="/home/david/assignment/website/intrasite" inode=132430 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553282224.103:136): cwd="/"
+type=SYSCALL msg=audit(1553282224.103:136): arch=c000003e syscall=2 success=yes exit=1 a0=557b798ae420 a1=90800 a2=557b798ae421 a3=1 items=1 ppid=3246 pid=3294 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="sh" exe="/bin/dash" key=(null)
+----
+time->Fri Mar 22 19:17:04 2019
+type=PROCTITLE msg=audit(1553282224.115:137): proctitle=6370002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F696E6465782E68746D6C002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F7374796C652E637373002F686F6D652F64617669642F61737369676E6D656E74
+type=PATH msg=audit(1553282224.115:137): item=0 name="/home/david/assignment/website/intrasite/index.html" inode=134330 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553282224.115:137): cwd="/"
+type=SYSCALL msg=audit(1553282224.115:137): arch=c000003e syscall=2 success=yes exit=1 a0=7ffe0908c85c a1=0 a2=0 a3=69f items=1 ppid=3294 pid=3295 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Fri Mar 22 19:17:04 2019
+type=PROCTITLE msg=audit(1553282224.115:138): proctitle=6370002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F696E6465782E68746D6C002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F7374796C652E637373002F686F6D652F64617669642F61737369676E6D656E74
+type=PATH msg=audit(1553282224.115:138): item=0 name="/home/david/assignment/website/intrasite/style.css" inode=134739 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553282224.115:138): cwd="/"
+type=SYSCALL msg=audit(1553282224.115:138): arch=c000003e syscall=2 success=yes exit=1 a0=7ffe0908c890 a1=0 a2=0 a3=0 items=1 ppid=3294 pid=3295 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Fri Mar 22 19:17:14 2019
+type=PROCTITLE msg=audit(1553282234.719:140): proctitle=2F7573722F62696E2F6E617574696C7573002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1553282234.719:140): item=0 name="/home/david/assignment/website/intrasite" inode=132430 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553282234.719:140): cwd="/home/david"
+type=SYSCALL msg=audit(1553282234.719:140): arch=c000003e syscall=2 success=yes exit=18 a0=7fb1d40018d0 a1=90800 a2=29 a3=aaaaaaaaaaaaaaab items=1 ppid=610 pid=2195 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Fri Mar 22 19:17:13 2019
+type=PROCTITLE msg=audit(1553282233.547:139): proctitle=2F7573722F62696E2F6E617574696C7573002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1553282233.547:139): item=0 name="/home/david/assignment/website/intrasite" inode=132430 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553282233.547:139): cwd="/home/david"
+type=SYSCALL msg=audit(1553282233.547:139): arch=c000003e syscall=2 success=yes exit=18 a0=7fb1f4009a50 a1=90800 a2=29 a3=aaaaaaaaaaaaaaab items=1 ppid=610 pid=2195 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Fri Mar 22 19:17:19 2019
+type=PROCTITLE msg=audit(1553282239.595:164): proctitle=2F7573722F6C69622F66697265666F782D6573722F66697265666F782D657372002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F696E6465782E68746D6C
+type=PATH msg=audit(1553282239.595:164): item=0 name="/home/david/assignment/website/intrasite/index.html" inode=134330 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553282239.595:164): cwd="/home/david"
+type=SYSCALL msg=audit(1553282239.595:164): arch=c000003e syscall=2 success=yes exit=98 a0=7efd6b4f8e90 a1=80100 a2=180 a3=7efd6b4fae80 items=1 ppid=610 pid=3304 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4 comm=46532042726F6B65722033333737 exe="/usr/lib/firefox-esr/firefox-esr" key=(null)
+----
+time->Fri Mar 22 19:17:19 2019
+type=PROCTITLE msg=audit(1553282239.631:185): proctitle=2F7573722F6C69622F66697265666F782D6573722F66697265666F782D657372002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F696E6465782E68746D6C
+type=PATH msg=audit(1553282239.631:185): item=0 name="/home/david/assignment/website/intrasite/style.css" inode=134739 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553282239.631:185): cwd="/home/david"
+type=SYSCALL msg=audit(1553282239.631:185): arch=c000003e syscall=2 success=yes exit=98 a0=7efd6b4f8e90 a1=80100 a2=180 a3=7efd6b4fae80 items=1 ppid=610 pid=3304 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4 comm=46532042726F6B65722033333737 exe="/usr/lib/firefox-esr/firefox-esr" key=(null)
+----
+time->Fri Mar 22 19:17:27 2019
+type=PROCTITLE msg=audit(1553282247.930:229): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1553282247.930:229): item=0 name="/home/david/assignment/website/intrasite/style.css" inode=134739 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553282247.930:229): cwd="/home/david"
+type=SYSCALL msg=audit(1553282247.930:229): arch=c000003e syscall=2 success=yes exit=16 a0=560b60f36700 a1=0 a2=0 a3=aaaaaaaaaaaaaaab items=1 ppid=610 pid=3422 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Fri Mar 22 19:17:27 2019
+type=PROCTITLE msg=audit(1553282247.938:230): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1553282247.938:230): item=0 name="/home/david/assignment/website/intrasite" inode=132430 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553282247.938:230): cwd="/home/david"
+type=SYSCALL msg=audit(1553282247.938:230): arch=c000003e syscall=2 success=yes exit=17 a0=7f8994008b10 a1=90800 a2=29 a3=504 items=1 ppid=610 pid=3422 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Fri Mar 22 19:17:26 2019
+type=PROCTITLE msg=audit(1553282246.110:228): proctitle=2F7573722F62696E2F6E617574696C7573002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1553282246.110:228): item=0 name="/home/david/assignment/website/intrasite" inode=132430 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553282246.110:228): cwd="/home/david"
+type=SYSCALL msg=audit(1553282246.110:228): arch=c000003e syscall=2 success=yes exit=18 a0=7fb1d40013d0 a1=90800 a2=29 a3=aaaaaaaaaaaaaaab items=1 ppid=610 pid=2195 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Fri Mar 22 19:17:33 2019
+type=PROCTITLE msg=audit(1553282253.426:232): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1553282253.426:232): item=1 name="/home/david/assignment/website/intrasite/style.css" inode=134739 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=PATH msg=audit(1553282253.426:232): item=0 name="/home/david/assignment/website/intrasite/" inode=132430 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1553282253.426:232): cwd="/home/david"
+type=SYSCALL msg=audit(1553282253.426:232): arch=c000003e syscall=2 success=yes exit=16 a0=560b60f36700 a1=20041 a2=1b6 a3=9e items=2 ppid=610 pid=3422 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Fri Mar 22 19:17:33 2019
+type=PROCTITLE msg=audit(1553282253.426:233): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1553282253.426:233): item=1 name="/home/david/assignment/website/intrasite/.goutputstream-2KA0YZ" inode=134847 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1553282253.426:233): item=0 name="/home/david/assignment/website/intrasite/" inode=132430 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1553282253.426:233): cwd="/home/david"
+type=SYSCALL msg=audit(1553282253.426:233): arch=c000003e syscall=2 success=yes exit=17 a0=7f8994002c50 a1=c1 a2=1b6 a3=cb6afc9e82b80 items=2 ppid=610 pid=3422 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Fri Mar 22 19:17:33 2019
+type=PROCTITLE msg=audit(1553282253.426:231): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1553282253.426:231): item=1 name="/home/david/assignment/website/intrasite/style.css" inode=134739 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=PATH msg=audit(1553282253.426:231): item=0 name="/home/david/assignment/website/intrasite/" inode=132430 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1553282253.426:231): cwd="/home/david"
+type=SYSCALL msg=audit(1553282253.426:231): arch=c000003e syscall=2 success=no exit=-17 a0=560b60f36700 a1=c1 a2=1b6 a3=aaaaaaaaaaaaaaab items=2 ppid=610 pid=3422 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Fri Mar 22 19:17:33 2019
+type=PROCTITLE msg=audit(1553282253.434:236): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1553282253.434:236): item=4 name="/home/david/assignment/website/intrasite/style.css" inode=134847 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1553282253.434:236): item=3 name="/home/david/assignment/website/intrasite/style.css" inode=134739 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1553282253.434:236): item=2 name="/home/david/assignment/website/intrasite/.goutputstream-2KA0YZ" inode=134847 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1553282253.434:236): item=1 name="/home/david/assignment/website/intrasite/" inode=132430 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=PATH msg=audit(1553282253.434:236): item=0 name="/home/david/assignment/website/intrasite/" inode=132430 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1553282253.434:236): cwd="/home/david"
+type=SYSCALL msg=audit(1553282253.434:236): arch=c000003e syscall=82 success=yes exit=0 a0=7f8994002c50 a1=7f8994002fb0 a2=0 a3=642 items=5 ppid=610 pid=3422 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Fri Mar 22 19:17:34 2019
+type=PROCTITLE msg=audit(1553282254.150:237): proctitle=7368002D63006370202F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F2A202F686F6D652F64617669642F61737369676E6D656E742F776562736974652F6C697665
+type=PATH msg=audit(1553282254.150:237): item=0 name="/home/david/assignment/website/intrasite" inode=132430 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553282254.150:237): cwd="/"
+type=SYSCALL msg=audit(1553282254.150:237): arch=c000003e syscall=2 success=yes exit=1 a0=55fe75fc2420 a1=90800 a2=55fe75fc2421 a3=1 items=1 ppid=3246 pid=3433 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="sh" exe="/bin/dash" key=(null)
+----
+time->Fri Mar 22 19:17:34 2019
+type=PROCTITLE msg=audit(1553282254.154:238): proctitle=6370002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F696E6465782E68746D6C002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F7374796C652E637373002F686F6D652F64617669642F61737369676E6D656E74
+type=PATH msg=audit(1553282254.154:238): item=0 name="/home/david/assignment/website/intrasite/index.html" inode=134330 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553282254.154:238): cwd="/"
+type=SYSCALL msg=audit(1553282254.154:238): arch=c000003e syscall=2 success=yes exit=1 a0=7ffef750685c a1=0 a2=0 a3=69f items=1 ppid=3433 pid=3434 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Fri Mar 22 19:17:34 2019
+type=PROCTITLE msg=audit(1553282254.158:239): proctitle=6370002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F696E6465782E68746D6C002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F7374796C652E637373002F686F6D652F64617669642F61737369676E6D656E74
+type=PATH msg=audit(1553282254.158:239): item=0 name="/home/david/assignment/website/intrasite/style.css" inode=134847 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553282254.158:239): cwd="/"
+type=SYSCALL msg=audit(1553282254.158:239): arch=c000003e syscall=2 success=yes exit=1 a0=7ffef7506890 a1=0 a2=0 a3=0 items=1 ppid=3433 pid=3434 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Fri Mar 22 19:17:46 2019
+type=PROCTITLE msg=audit(1553282266.234:241): proctitle=2F7573722F62696E2F6E617574696C7573002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1553282266.234:241): item=0 name="/home/david/assignment/website/intrasite" inode=132430 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553282266.234:241): cwd="/home/david"
+type=SYSCALL msg=audit(1553282266.234:241): arch=c000003e syscall=2 success=yes exit=18 a0=7fb1d4002170 a1=90800 a2=29 a3=aaaaaaaaaaaaaaab items=1 ppid=610 pid=2195 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Fri Mar 22 19:17:44 2019
+type=PROCTITLE msg=audit(1553282264.614:240): proctitle=2F7573722F62696E2F6E617574696C7573002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1553282264.614:240): item=0 name="/home/david/assignment/website/intrasite" inode=132430 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553282264.614:240): cwd="/home/david"
+type=SYSCALL msg=audit(1553282264.614:240): arch=c000003e syscall=2 success=yes exit=19 a0=7fb1d4002200 a1=90800 a2=29 a3=aaaaaaaaaaaaaaab items=1 ppid=610 pid=2195 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4 comm="pool" exe="/usr/bin/nautilus" key=(null)
+----
+time->Fri Mar 22 19:18:04 2019
+type=PROCTITLE msg=audit(1553282284.169:243): proctitle=6370002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F696E6465782E68746D6C002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F7374796C652E637373002F686F6D652F64617669642F61737369676E6D656E74
+type=PATH msg=audit(1553282284.169:243): item=0 name="/home/david/assignment/website/intrasite/index.html" inode=134330 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553282284.169:243): cwd="/"
+type=SYSCALL msg=audit(1553282284.169:243): arch=c000003e syscall=2 success=yes exit=1 a0=7ffc9ff6885c a1=0 a2=0 a3=69f items=1 ppid=3449 pid=3450 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Fri Mar 22 19:18:04 2019
+type=PROCTITLE msg=audit(1553282284.165:242): proctitle=7368002D63006370202F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F2A202F686F6D652F64617669642F61737369676E6D656E742F776562736974652F6C697665
+type=PATH msg=audit(1553282284.165:242): item=0 name="/home/david/assignment/website/intrasite" inode=132430 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553282284.165:242): cwd="/"
+type=SYSCALL msg=audit(1553282284.165:242): arch=c000003e syscall=2 success=yes exit=1 a0=555ac684f420 a1=90800 a2=555ac684f421 a3=1 items=1 ppid=3246 pid=3449 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="sh" exe="/bin/dash" key=(null)
+----
+time->Fri Mar 22 19:18:04 2019
+type=PROCTITLE msg=audit(1553282284.169:244): proctitle=6370002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F696E6465782E68746D6C002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F7374796C652E637373002F686F6D652F64617669642F61737369676E6D656E74
+type=PATH msg=audit(1553282284.169:244): item=0 name="/home/david/assignment/website/intrasite/style.css" inode=134847 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553282284.169:244): cwd="/"
+type=SYSCALL msg=audit(1553282284.169:244): arch=c000003e syscall=2 success=yes exit=1 a0=7ffc9ff68890 a1=0 a2=0 a3=0 items=1 ppid=3449 pid=3450 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Fri Mar 22 19:18:34 2019
+type=PROCTITLE msg=audit(1553282314.192:246): proctitle=6370002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F696E6465782E68746D6C002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F7374796C652E637373002F686F6D652F64617669642F61737369676E6D656E74
+type=PATH msg=audit(1553282314.192:246): item=0 name="/home/david/assignment/website/intrasite/index.html" inode=134330 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553282314.192:246): cwd="/"
+type=SYSCALL msg=audit(1553282314.192:246): arch=c000003e syscall=2 success=yes exit=1 a0=7ffe657a885c a1=0 a2=0 a3=69f items=1 ppid=3457 pid=3458 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Fri Mar 22 19:18:34 2019
+type=PROCTITLE msg=audit(1553282314.192:247): proctitle=6370002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F696E6465782E68746D6C002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F7374796C652E637373002F686F6D652F64617669642F61737369676E6D656E74
+type=PATH msg=audit(1553282314.192:247): item=0 name="/home/david/assignment/website/intrasite/style.css" inode=134847 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553282314.192:247): cwd="/"
+type=SYSCALL msg=audit(1553282314.192:247): arch=c000003e syscall=2 success=yes exit=1 a0=7ffe657a8890 a1=0 a2=0 a3=0 items=1 ppid=3457 pid=3458 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Fri Mar 22 19:18:34 2019
+type=PROCTITLE msg=audit(1553282314.184:245): proctitle=7368002D63006370202F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F2A202F686F6D652F64617669642F61737369676E6D656E742F776562736974652F6C697665
+type=PATH msg=audit(1553282314.184:245): item=0 name="/home/david/assignment/website/intrasite" inode=132430 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553282314.184:245): cwd="/"
+type=SYSCALL msg=audit(1553282314.184:245): arch=c000003e syscall=2 success=yes exit=1 a0=5609e10b3420 a1=90800 a2=5609e10b3421 a3=1 items=1 ppid=3246 pid=3457 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="sh" exe="/bin/dash" key=(null)
+----
+time->Fri Mar 22 19:19:04 2019
+type=PROCTITLE msg=audit(1553282344.203:250): proctitle=7368002D63006370202F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F2A202F686F6D652F64617669642F61737369676E6D656E742F776562736974652F6C697665
+type=PATH msg=audit(1553282344.203:250): item=0 name="/home/david/assignment/website/intrasite" inode=132430 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553282344.203:250): cwd="/"
+type=SYSCALL msg=audit(1553282344.203:250): arch=c000003e syscall=2 success=yes exit=1 a0=55f3d6b51420 a1=90800 a2=55f3d6b51421 a3=1 items=1 ppid=3246 pid=3468 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="sh" exe="/bin/dash" key=(null)
+----
+time->Fri Mar 22 19:19:04 2019
+type=PROCTITLE msg=audit(1553282344.203:251): proctitle=6370002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F696E6465782E68746D6C002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F7374796C652E637373002F686F6D652F64617669642F61737369676E6D656E74
+type=PATH msg=audit(1553282344.203:251): item=0 name="/home/david/assignment/website/intrasite/index.html" inode=134330 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553282344.203:251): cwd="/"
+type=SYSCALL msg=audit(1553282344.203:251): arch=c000003e syscall=2 success=yes exit=1 a0=7ffd18a2e85c a1=0 a2=0 a3=69f items=1 ppid=3468 pid=3469 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Fri Mar 22 19:19:04 2019
+type=PROCTITLE msg=audit(1553282344.203:252): proctitle=6370002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F696E6465782E68746D6C002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F7374796C652E637373002F686F6D652F64617669642F61737369676E6D656E74
+type=PATH msg=audit(1553282344.203:252): item=0 name="/home/david/assignment/website/intrasite/style.css" inode=134847 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553282344.203:252): cwd="/"
+type=SYSCALL msg=audit(1553282344.203:252): arch=c000003e syscall=2 success=yes exit=1 a0=7ffd18a2e890 a1=0 a2=0 a3=0 items=1 ppid=3468 pid=3469 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Fri Mar 22 19:30:22 2019
+type=PROCTITLE msg=audit(1553283022.660:275): proctitle=6370002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F696E6465782E68746D6C002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F7374796C652E637373002F686F6D652F64617669642F61737369676E6D656E74
+type=PATH msg=audit(1553283022.660:275): item=0 name="/home/david/assignment/website/intrasite/index.html" inode=134330 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553283022.660:275): cwd="/"
+type=SYSCALL msg=audit(1553283022.660:275): arch=c000003e syscall=2 success=yes exit=1 a0=7fffc134185c a1=0 a2=0 a3=69f items=1 ppid=3594 pid=3595 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Fri Mar 22 19:30:22 2019
+type=PROCTITLE msg=audit(1553283022.656:274): proctitle=7368002D63006370202F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F2A202F686F6D652F64617669642F61737369676E6D656E742F776562736974652F6C697665
+type=PATH msg=audit(1553283022.656:274): item=0 name="/home/david/assignment/website/intrasite" inode=132430 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553283022.656:274): cwd="/"
+type=SYSCALL msg=audit(1553283022.656:274): arch=c000003e syscall=2 success=yes exit=1 a0=563fd92e0420 a1=90800 a2=563fd92e0421 a3=1 items=1 ppid=3589 pid=3594 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="sh" exe="/bin/dash" key=(null)
+----
+time->Fri Mar 22 19:30:22 2019
+type=PROCTITLE msg=audit(1553283022.660:276): proctitle=6370002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F696E6465782E68746D6C002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F7374796C652E637373002F686F6D652F64617669642F61737369676E6D656E74
+type=PATH msg=audit(1553283022.660:276): item=0 name="/home/david/assignment/website/intrasite/style.css" inode=134847 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553283022.660:276): cwd="/"
+type=SYSCALL msg=audit(1553283022.660:276): arch=c000003e syscall=2 success=yes exit=1 a0=7fffc1341890 a1=0 a2=0 a3=0 items=1 ppid=3594 pid=3595 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Fri Mar 22 19:34:21 2019
+type=PROCTITLE msg=audit(1553283261.068:289): proctitle=6370002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F696E6465782E68746D6C002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F7374796C652E637373002F686F6D652F64617669642F61737369676E6D656E74
+type=PATH msg=audit(1553283261.068:289): item=0 name="/home/david/assignment/website/intrasite/index.html" inode=134330 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553283261.068:289): cwd="/"
+type=SYSCALL msg=audit(1553283261.068:289): arch=c000003e syscall=2 success=yes exit=1 a0=7ffe8a8d785c a1=0 a2=0 a3=69f items=1 ppid=3634 pid=3635 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Fri Mar 22 19:34:21 2019
+type=PROCTITLE msg=audit(1553283261.068:288): proctitle=7368002D63006370202F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F2A202F686F6D652F64617669642F61737369676E6D656E742F776562736974652F6C697665
+type=PATH msg=audit(1553283261.068:288): item=0 name="/home/david/assignment/website/intrasite" inode=132430 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553283261.068:288): cwd="/"
+type=SYSCALL msg=audit(1553283261.068:288): arch=c000003e syscall=2 success=yes exit=1 a0=5555c74ef420 a1=90800 a2=5555c74ef421 a3=1 items=1 ppid=3630 pid=3634 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="sh" exe="/bin/dash" key=(null)
+----
+time->Fri Mar 22 19:34:21 2019
+type=PROCTITLE msg=audit(1553283261.068:290): proctitle=6370002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F696E6465782E68746D6C002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F7374796C652E637373002F686F6D652F64617669642F61737369676E6D656E74
+type=PATH msg=audit(1553283261.068:290): item=0 name="/home/david/assignment/website/intrasite/style.css" inode=134847 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553283261.068:290): cwd="/"
+type=SYSCALL msg=audit(1553283261.068:290): arch=c000003e syscall=2 success=yes exit=1 a0=7ffe8a8d7890 a1=0 a2=0 a3=0 items=1 ppid=3634 pid=3635 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Fri Mar 22 19:34:51 2019
+type=PROCTITLE msg=audit(1553283291.079:292): proctitle=6370002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F696E6465782E68746D6C002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F7374796C652E637373002F686F6D652F64617669642F61737369676E6D656E74
+type=PATH msg=audit(1553283291.079:292): item=0 name="/home/david/assignment/website/intrasite/index.html" inode=134330 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553283291.079:292): cwd="/"
+type=SYSCALL msg=audit(1553283291.079:292): arch=c000003e syscall=2 success=yes exit=1 a0=7ffeeb2c985c a1=0 a2=0 a3=69f items=1 ppid=3642 pid=3643 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Fri Mar 22 19:34:51 2019
+type=PROCTITLE msg=audit(1553283291.083:293): proctitle=6370002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F696E6465782E68746D6C002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F7374796C652E637373002F686F6D652F64617669642F61737369676E6D656E74
+type=PATH msg=audit(1553283291.083:293): item=0 name="/home/david/assignment/website/intrasite/style.css" inode=134847 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553283291.083:293): cwd="/"
+type=SYSCALL msg=audit(1553283291.083:293): arch=c000003e syscall=2 success=yes exit=1 a0=7ffeeb2c9890 a1=0 a2=0 a3=0 items=1 ppid=3642 pid=3643 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Fri Mar 22 19:34:51 2019
+type=PROCTITLE msg=audit(1553283291.079:291): proctitle=7368002D63006370202F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F2A202F686F6D652F64617669642F61737369676E6D656E742F776562736974652F6C697665
+type=PATH msg=audit(1553283291.079:291): item=0 name="/home/david/assignment/website/intrasite" inode=132430 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553283291.079:291): cwd="/"
+type=SYSCALL msg=audit(1553283291.079:291): arch=c000003e syscall=2 success=yes exit=1 a0=55f8889b5420 a1=90800 a2=55f8889b5421 a3=1 items=1 ppid=3630 pid=3642 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="sh" exe="/bin/dash" key=(null)
+----
+time->Fri Mar 22 19:35:21 2019
+type=PROCTITLE msg=audit(1553283321.094:295): proctitle=6370002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F696E6465782E68746D6C002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F7374796C652E637373002F686F6D652F64617669642F61737369676E6D656E74
+type=PATH msg=audit(1553283321.094:295): item=0 name="/home/david/assignment/website/intrasite/index.html" inode=134330 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553283321.094:295): cwd="/"
+type=SYSCALL msg=audit(1553283321.094:295): arch=c000003e syscall=2 success=yes exit=1 a0=7ffeb72cb85c a1=0 a2=0 a3=69f items=1 ppid=3650 pid=3651 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Fri Mar 22 19:35:21 2019
+type=PROCTITLE msg=audit(1553283321.094:296): proctitle=6370002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F696E6465782E68746D6C002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F7374796C652E637373002F686F6D652F64617669642F61737369676E6D656E74
+type=PATH msg=audit(1553283321.094:296): item=0 name="/home/david/assignment/website/intrasite/style.css" inode=134847 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553283321.094:296): cwd="/"
+type=SYSCALL msg=audit(1553283321.094:296): arch=c000003e syscall=2 success=yes exit=1 a0=7ffeb72cb890 a1=0 a2=0 a3=0 items=1 ppid=3650 pid=3651 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Fri Mar 22 19:35:21 2019
+type=PROCTITLE msg=audit(1553283321.086:294): proctitle=7368002D63006370202F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F2A202F686F6D652F64617669642F61737369676E6D656E742F776562736974652F6C697665
+type=PATH msg=audit(1553283321.086:294): item=0 name="/home/david/assignment/website/intrasite" inode=132430 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553283321.086:294): cwd="/"
+type=SYSCALL msg=audit(1553283321.086:294): arch=c000003e syscall=2 success=yes exit=1 a0=55f62d44c420 a1=90800 a2=55f62d44c421 a3=1 items=1 ppid=3630 pid=3650 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="sh" exe="/bin/dash" key=(null)
+----
+time->Fri Mar 22 19:35:51 2019
+type=PROCTITLE msg=audit(1553283351.117:298): proctitle=6370002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F696E6465782E68746D6C002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F7374796C652E637373002F686F6D652F64617669642F61737369676E6D656E74
+type=PATH msg=audit(1553283351.117:298): item=0 name="/home/david/assignment/website/intrasite/index.html" inode=134330 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553283351.117:298): cwd="/"
+type=SYSCALL msg=audit(1553283351.117:298): arch=c000003e syscall=2 success=yes exit=1 a0=7ffd14e9285c a1=0 a2=0 a3=69f items=1 ppid=3658 pid=3659 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Fri Mar 22 19:35:51 2019
+type=PROCTITLE msg=audit(1553283351.117:299): proctitle=6370002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F696E6465782E68746D6C002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F7374796C652E637373002F686F6D652F64617669642F61737369676E6D656E74
+type=PATH msg=audit(1553283351.117:299): item=0 name="/home/david/assignment/website/intrasite/style.css" inode=134847 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553283351.117:299): cwd="/"
+type=SYSCALL msg=audit(1553283351.117:299): arch=c000003e syscall=2 success=yes exit=1 a0=7ffd14e92890 a1=0 a2=0 a3=0 items=1 ppid=3658 pid=3659 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Fri Mar 22 19:35:51 2019
+type=PROCTITLE msg=audit(1553283351.117:297): proctitle=7368002D63006370202F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F2A202F686F6D652F64617669642F61737369676E6D656E742F776562736974652F6C697665
+type=PATH msg=audit(1553283351.117:297): item=0 name="/home/david/assignment/website/intrasite" inode=132430 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553283351.117:297): cwd="/"
+type=SYSCALL msg=audit(1553283351.117:297): arch=c000003e syscall=2 success=yes exit=1 a0=564ae2ff1420 a1=90800 a2=564ae2ff1421 a3=1 items=1 ppid=3630 pid=3658 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="sh" exe="/bin/dash" key=(null)
+----
+time->Fri Mar 22 19:36:43 2019
+type=PROCTITLE msg=audit(1553283403.799:319): proctitle=7368002D63006370202F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F2A202F686F6D652F64617669642F61737369676E6D656E742F776562736974652F6C697665
+type=PATH msg=audit(1553283403.799:319): item=0 name="/home/david/assignment/website/intrasite" inode=132430 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553283403.799:319): cwd="/"
+type=SYSCALL msg=audit(1553283403.799:319): arch=c000003e syscall=2 success=yes exit=1 a0=55d30447f420 a1=90800 a2=55d30447f421 a3=1 items=1 ppid=3692 pid=3701 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="sh" exe="/bin/dash" key=(null)
+----
+time->Fri Mar 22 19:36:43 2019
+type=PROCTITLE msg=audit(1553283403.799:320): proctitle=6370002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F696E6465782E68746D6C002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F7374796C652E637373002F686F6D652F64617669642F61737369676E6D656E74
+type=PATH msg=audit(1553283403.799:320): item=0 name="/home/david/assignment/website/intrasite/index.html" inode=134330 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553283403.799:320): cwd="/"
+type=SYSCALL msg=audit(1553283403.799:320): arch=c000003e syscall=2 success=yes exit=1 a0=7ffe63bc185c a1=0 a2=0 a3=69f items=1 ppid=3701 pid=3702 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Fri Mar 22 19:36:43 2019
+type=PROCTITLE msg=audit(1553283403.803:321): proctitle=6370002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F696E6465782E68746D6C002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F7374796C652E637373002F686F6D652F64617669642F61737369676E6D656E74
+type=PATH msg=audit(1553283403.803:321): item=0 name="/home/david/assignment/website/intrasite/style.css" inode=134847 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553283403.803:321): cwd="/"
+type=SYSCALL msg=audit(1553283403.803:321): arch=c000003e syscall=2 success=yes exit=1 a0=7ffe63bc1890 a1=0 a2=0 a3=0 items=1 ppid=3701 pid=3702 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Fri Mar 22 19:37:13 2019
+type=PROCTITLE msg=audit(1553283433.818:418): proctitle=7368002D63006370202F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F2A202F686F6D652F64617669642F61737369676E6D656E742F776562736974652F6C697665
+type=PATH msg=audit(1553283433.818:418): item=0 name="/home/david/assignment/website/intrasite" inode=132430 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553283433.818:418): cwd="/"
+type=SYSCALL msg=audit(1553283433.818:418): arch=c000003e syscall=2 success=yes exit=1 a0=5611d656d420 a1=90800 a2=5611d656d421 a3=1 items=1 ppid=3692 pid=3820 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="sh" exe="/bin/dash" key=(null)
+----
+time->Fri Mar 22 19:37:13 2019
+type=PROCTITLE msg=audit(1553283433.818:419): proctitle=6370002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F696E6465782E68746D6C002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F7374796C652E637373002F686F6D652F64617669642F61737369676E6D656E74
+type=PATH msg=audit(1553283433.818:419): item=0 name="/home/david/assignment/website/intrasite/index.html" inode=134330 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553283433.818:419): cwd="/"
+type=SYSCALL msg=audit(1553283433.818:419): arch=c000003e syscall=2 success=yes exit=1 a0=7fffe587885c a1=0 a2=0 a3=69f items=1 ppid=3820 pid=3821 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Fri Mar 22 19:37:13 2019
+type=PROCTITLE msg=audit(1553283433.818:420): proctitle=6370002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F696E6465782E68746D6C002F686F6D652F64617669642F61737369676E6D656E742F776562736974652F696E747261736974652F7374796C652E637373002F686F6D652F64617669642F61737369676E6D656E74
+type=PATH msg=audit(1553283433.818:420): item=0 name="/home/david/assignment/website/intrasite/style.css" inode=134847 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1553283433.818:420): cwd="/"
+type=SYSCALL msg=audit(1553283433.818:420): arch=c000003e syscall=2 success=yes exit=1 a0=7fffe5878890 a1=0 a2=0 a3=0 items=1 ppid=3820 pid=3821 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="cp" exe="/bin/cp" key=(null)
