@@ -59,6 +59,49 @@ static void summonADaemon()
 
 int main(int argc, char *argv[])
 {
+
+	char *command = "auditctl -w /home/david/assignment/website/intrasite -p rwxa";
+
+	if(system(command) < 0)
+	{
+		openlog("TestLog", LOG_PID | LOG_CONS, LOG_USER);
+		syslog(LOG_INFO, "Could not begin auditing\nSomething went wrong or the developer is a dunce!\n%s", strerror(errno));
+		closelog();
+	}
+	else
+	{
+		system("echo woot!");
+	}
+
+	//outlined above - essentially just creates out daemon
 	summonADaemon();
-	createBackup();
+
+	while(1)
+	{
+		sleep(1);
+		int fileDescriptor;
+		char *queueFile = "home/david/assignment/logs/logFileAssign";
+		char buffer[1024] = "";
+		fileDescriptor = open(queueFile, O_RDONLY);
+
+		read(fileDescriptor, buffer, 1024);
+		
+
+		//backup call
+		if(strcmp(buffer, "1") == 0)
+		{
+			lockFiles("1111");
+			createBackup();
+			unlockFiles("0777");
+		}
+
+		close(fileDescriptor);
+
+		//
+
+
+		//
+	}
+
+	return 0;
 }
